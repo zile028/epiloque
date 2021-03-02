@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 200;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 7px;
+  margin: 50px 0;
+}
+
+button {
+  border: 2px solid #444;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 30px;
+  background: transparent;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid #ef6480;
+  color: #ef6480;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(img/banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 6rem;
+  color: #fff;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+  width: 35%;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.7;
+  letter-spacing: 4px;
+  margin-top: 40px;
+}
+
+header hr {
+  background: red;
+}
+
+.intro {
+  padding: 100px 0;
+  background: #fff;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.intro i {
+  border: 2px solid #444;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #676767;
+  padding: 50px;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.blog {
+  padding: 50px 0 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+          flex: 0 0 48%;
+  margin-bottom: 60px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.blog .text {
+  background: #fff;
+  text-align: center;
+  padding: 70px;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.blog a:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.featured-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-image img {
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  display: block;
+}
+
+.featured-image h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-weight: 400;
+  text-shadow: 0 0 3px black;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
